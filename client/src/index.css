@@ -1,0 +1,48 @@
+:root {
+  --bg: #f6f1ea;
+  --ink: #1f1b17;
+  --muted: #6f675e;
+  --accent: #ff7a59;
+  --teal: #1b998b;
+  --sun: #f7c35f;
+  --card: #ffffff;
+  --border: rgba(31, 27, 23, 0.12);
+  --ring: rgba(27, 153, 139, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Work Sans", "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", "Work Sans", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
