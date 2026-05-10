@@ -1,7 +1,7 @@
 # Campus Loop MVP
 
 Campus Loop is a campus marketplace where verified students can list, browse, and inquire about items to buy, sell, or rent. This MVP focuses on core backend logic with a clean, functional frontend.
-
+Campus Loop helps students save money, reduce waste, and build a trusted campus community through smart peer-to-peer buying, selling, and renting.
 ## Tech Stack
 - Frontend: React + Vite (JavaScript)
 - Styling: Tailwind CSS CDN
