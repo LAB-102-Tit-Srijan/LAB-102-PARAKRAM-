@@ -1,9 +1,26 @@
+# Dependencies
 node_modules/
-client/node_modules/
 server/node_modules/
-client/dist/
+client/node_modules/
+
+# Database (auto-recreates with seed data)
 server/campus.db
-server/uploads/*
-!server/uploads/.gitkeep
+
+# Environment files
 .env
+.env.local
+server/.env
+client/.env.development
+
+# Build output
+client/dist/
+
+# Uploads (local only)
+server/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
